@@ -12,7 +12,7 @@ services:
       - ubuntu_php
   ubuntu_php:
     tty: true
-    image: studiomado/php71_ubuntu:1.1
+    image: studiomado/php71_ubuntu:1.0
     ports:
       - 9000:9000
     volumes:

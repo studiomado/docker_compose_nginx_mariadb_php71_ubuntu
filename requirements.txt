@@ -1,0 +1,3 @@
+ubuntu_nginx
+ubuntu_php
+ubuntu_mariadb

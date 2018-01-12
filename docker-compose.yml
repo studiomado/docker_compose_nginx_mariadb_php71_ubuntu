@@ -24,3 +24,5 @@ services:
     image: studiomado/mariadb_ubuntu:1.0
     ports:
       - 3306:3306
+    env_file:
+      - .env

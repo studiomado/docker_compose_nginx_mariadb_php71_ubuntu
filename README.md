@@ -7,6 +7,7 @@ This repository contains a docker-compose file where if you launch It you can cr
 
 Inside file docker-compose.yml you need to change if you want path and is necessary to have into your project:
 * a file utils/nginx.conf where you have your custom nginx configuration
+* a file utils/default.conf where you have your custom nginx configuration fo sites-available and sites-enabled directories
 * a file called .env (you can rename .env.dist from this repo) where you specifiy database connection parameters like this:
 
 ```
